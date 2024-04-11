@@ -1,11 +1,10 @@
-
-public class E6_12 {
+public class ex4_1 {
     public static void main(String[] args) {
-        int number =1;
-        while(number<Math.pow(2, 20)){
-            number=2*number;
-            System.out.print( "  "  +number);
+        int total = 1;
+        while(total < 220) {
+            total = total * 2;
+            if(total > 20 && total < 220)
+                System.out.println(total);
         }
     }
-    
 }
